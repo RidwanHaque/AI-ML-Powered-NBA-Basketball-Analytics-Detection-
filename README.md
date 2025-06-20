@@ -87,6 +87,25 @@ With save=true, a "runs" folder is automatically created containing the output d
 ## First Test
 
 - number next to the object label is the confidence number (how confident is the model that this is actually a "person" object )
+- problems:
+    picking up crowd 
+    misclassification of objects
+    basketball isn't always detected
+
 
 ![alt text](image-1.png)
 
+
+
+
+## Next steps
+
+- Accuracy needs to improved through fine tuning already trained model (give it examples with labels (labeled dataset) and allow model to execute similar output by learning)
+- this is transferred learning 
+
+# Labeled Datasets w/ RoboFlow
+- single image with bounding boxes on players and other scene objects and labeling it
+- also labeling scoreboard overlay
+- dataset is a list of images labeled according to our specific needs
+- roboflow allows us to use existing datasets and retrieve them, more images means more accuracy and stable performance
+- the dataset has multiple classes (Player, Referee, Basketball)
