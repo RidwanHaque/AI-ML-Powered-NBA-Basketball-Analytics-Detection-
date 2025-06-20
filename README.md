@@ -88,8 +88,8 @@ With save=true, a "runs" folder is automatically created containing the output d
 
 - number next to the object label is the confidence number (how confident is the model that this is actually a "person" object )
 - problems:
-    picking up crowd 
-    misclassification of objects
+    picking up crowd, 
+    misclassification of objects,
     basketball isn't always detected
 
 
